@@ -12,8 +12,8 @@ import (
 func main() {
 	// Arguments Required by This Program
 	var (
-		actionPtr = flag.String("action", "", "Action to perform on Instance. Values could be, start or stop")
-	    instancePtr = flag.String("instance-id", "", "Id of the instance to perform action")
+        actionPtr = flag.String("action", "", "Action to perform on Instance. Values could be, start or stop")
+        instancePtr = flag.String("instance-id", "", "Id of the instance to perform action")
 	)
 	flag.Parse()
 	// Load session from shared config
